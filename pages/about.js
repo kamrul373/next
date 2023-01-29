@@ -7,8 +7,8 @@ const about = () => {
             <title>About US</title>
             <meta name="keywords" content="about us, this page is about our company" />
         </Head>
-        <div className={styles.main }>
-            <h2>About</h2>
+        <div>
+            <h2 className={styles.heading}>About</h2>
         </div>
         </>
         

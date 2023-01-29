@@ -16,3 +16,8 @@
     align-items: center;
     font-size: 1.25rem;
   }
+  .subHeading{
+    color: green;
+    font-weight: 600;
+    font-size:50px
+  }

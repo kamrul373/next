@@ -1,0 +1,32 @@
+.header{
+    text-align: center;
+    padding: 50px 0;
+    background-color: blueviolet;
+    width: 100%;
+}
+.header h2{
+    font-size: 65px;
+    font-weight: 700;
+}
+.header h2 span{
+    color: white;
+}
+.header p {
+    font-size: 20px;
+    color:whitesmoke;
+    padding:15px 0
+}
+.explore{
+    background-color:crimson;
+    color: white;
+    padding:12px 50px;
+    border: 1px solid blueviolet;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color .5s linear;
+}
+.explore:hover{
+    background-color: rgb(202, 5, 44);
+}
