@@ -13,7 +13,7 @@ export default function Home({articles}) {
      <div>
         <h2 className={styles.heading}>Welcome to Next</h2>
      </div>
-    <Articles articles={articles}></Articles>
+     <Articles articles={articles}></Articles>
     </>
   )
 }

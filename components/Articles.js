@@ -1,8 +1,10 @@
+import styles from "../styles/articleItem.module.css"
+import ArticleItem from "./ArticleItem";
 const Articles = ({articles}) => {
     return (
-        <div>
+        <div className={styles.grid}>
             {
-                articles.map(article => <h3>{article.title}</h3>)
+                articles.map(article => <ArticleItem article={article}></ArticleItem>)
             }
         </div>
     );
