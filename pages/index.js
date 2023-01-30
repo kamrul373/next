@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import Articles from '@/components/Articles'
+import Test from '@/components/Test'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +15,7 @@ export default function Home({articles}) {
         <h2 className={styles.heading}>Welcome to Next</h2>
      </div>
      <Articles articles={articles}></Articles>
+     <Test></Test>
     </>
   )
 }
